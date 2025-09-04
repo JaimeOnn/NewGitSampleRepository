@@ -1,0 +1,9 @@
+
+
+.CardB {
+   transition: transform 0.2s ease-in-out;
+}
+
+.CardB:hover {
+    transform: translateY(-1px) scale(1.01);
+}
