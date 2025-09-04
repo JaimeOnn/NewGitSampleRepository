@@ -40,6 +40,8 @@ function App() {
         <h1>Usable Card using funcion components with CSS</h1>
       </CardB>
 
+      <h1>STASH SAMPLE</h1>
+
       <h1>BULSHIT</h1>
       <Welcome />
       <div className="card">
