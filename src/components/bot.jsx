@@ -14,5 +14,15 @@ const CardB = ({children}) => <div>
   </div>
 </div>
 
+const AplyButton = ({children}) => <>
+  <div className="btn btn-primary btn-lg shadow-lg rounded-3">
+    <div>
+      {children}
+    </div>
+  </div>
+</>
+
+
 export default Bot;
 export { CardB };
+export { AplyButton };

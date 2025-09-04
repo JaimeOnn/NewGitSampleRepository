@@ -12,7 +12,7 @@ const SMPComp = () => {
     return React.createElement(
         'div', 
         {id: 'smpdiv', className: 'smpdiv'}, 
-        React.createElement('h1', null, 'SHIIIIIIIITTTTTTTTTT'))
+        React.createElement('h1', null, 'ASDASD'))
 }
 
 export default SMPComp;

@@ -6,6 +6,7 @@ import Bot from './components/bot'
 import { CardB } from './components/bot'
 import Welcome from './components/Welcome'
 import SMPComp from './components/smpcomp'
+import {AplyButton} from './components/bot'
 
 import Keybord from './components/hello'
 
@@ -28,9 +29,15 @@ function App() {
       {/* function components */}
       <Bot />
 
+      {/* reusable components */}
+      <AplyButton>
+        Reusable Button
+        using function components
+      </AplyButton>
+      
       {/* usable components */}
       <CardB>
-        <p>TABANG MINATAY NI NGA REACT <br /> lisod kaayo T_T</p>
+        <h1>Usable Card using funcion components with CSS</h1>
       </CardB>
 
       <h1>BULSHIT</h1>
