@@ -7,7 +7,7 @@ import { CardB } from './components/bot'
 import Welcome from './components/Welcome'
 import SMPComp from './components/smpcomp'
 import {AplyButton} from './components/bot'
-
+import { Commentb } from './components/bot'
 import Keybord from './components/hello'
 
 function App() {
@@ -25,6 +25,9 @@ function App() {
       </div>
 
       <SMPComp></SMPComp>
+
+
+
 
       {/* function components */}
       <Bot />
@@ -52,9 +55,13 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+      <Commentb>
+        Add your Comment
+      </Commentb>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
     </>
   )
 }
